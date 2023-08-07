@@ -26,7 +26,6 @@ align-items: center;
 
 .detective-logo{
     display:block;
-    /* width: 100%; */
 }
 
 .detective-title{
@@ -40,11 +39,12 @@ align-items: center;
 
 .subtitle{
     font-size: 5em;
+    font-style: italic;
 }
 
-/*.laura-clope{
-    position: relative;
-}*/
+.laura-clope {
+    max-height: 50vh;
+}
 
 .circle {
     margin: inherit;
@@ -65,19 +65,16 @@ align-items: center;
 }
 
 .detective-secrets {
-    font-size: 1.8em;
-    height: 200px;
-    width: 150px;
-    background-color: white;
-    z-index: 50;
-    position: absolute;
-    top: 80%;
-    left: 10%;
+    max-width: 100%;
     display: flex;
-    justify-content: flex-start;
+    flex-flow: column wrap;
+    color: yellow;
+    background-color: transparent;
 }
 
 .detective-secrets-text {
+position: absolute;
+bottom: 15px;
 display: block;
 }
 
@@ -89,7 +86,9 @@ display: block;
 
 @media screen and (max-device-width: 480px) {
     main {
-        width: 95vw;
+       height:100vh;
+       width: 100vw;
+        margin: auto;
     }
     .circle {
         width: 100px;
@@ -106,11 +105,4 @@ display: block;
        margin: 0px;
     }
 
-    .detective-secrets {
-        height: auto;
-        width: 100%;
-        left: 0px;
-        color: yellow;
-        background-color: transparent;
-    }
 }
