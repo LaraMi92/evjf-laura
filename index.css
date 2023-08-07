@@ -3,12 +3,17 @@ html{
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+#first {
+background-image: url(B9733364368Z.1_20230202100508_000+GDAM54MJ9.1-0.jpg);
+background-size: cover;
+}
+
 .red{
     color:#F80000;
 }
 
 .underline{
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid #F80000;
   display: inline-block;
   line-height: 0.85;
 }
@@ -35,6 +40,7 @@ align-items: center;
     margin: auto;
     display: block;
     text-align:center;
+    text-shadow: yellow 1px 0 10px;
 }
 
 .subtitle{
@@ -43,7 +49,7 @@ align-items: center;
 }
 
 .laura-clope {
-    max-height: 50vh;
+    max-height: 40vh;
 }
 
 .circle {
@@ -65,7 +71,7 @@ align-items: center;
 }
 
 .detective-secrets {
-    max-width: 100%;
+    max-width: 100vw;
     display: flex;
     flex-flow: column wrap;
     color: yellow;
@@ -75,13 +81,21 @@ align-items: center;
 .detective-secrets-text {
 position: absolute;
 bottom: 15px;
-display: block;
+display: inline-block;
+font-size: 1.1em;
+text-shadow: black 1px 0 10px;
 }
 
-#second {
-    background-color: #F80000;
+#second{
     width: 100vw;
     font-size: 1.3em;
+    background-image: url(B9733364368Z.1_20230202100508_000+GDAM54MJ9.1-0.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.second {
+    text-shadow: yellow 1px 0 10px;
 }
 
 @media screen and (max-device-width: 480px) {
