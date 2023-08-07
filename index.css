@@ -83,6 +83,8 @@ display: block;
 
 #second {
     background-color: #F80000;
+    width: 100vw;
+    font-size: 1.3em;
 }
 
 @media screen and (max-device-width: 480px) {
