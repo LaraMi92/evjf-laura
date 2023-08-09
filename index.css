@@ -86,16 +86,21 @@ font-size: 1.1em;
 text-shadow: black 1px 0 10px;
 }
 
-#second{
-    width: 100vw;
-    font-size: 1.3em;
-    background-image: url(B9733364368Z.1_20230202100508_000+GDAM54MJ9.1-0.jpg);
-    background-size: cover;
-    opacity: 0.8;
-}
 
-.second {
-    text-shadow: yellow 1px 0 10px;
+#second {
+    height: 100vh;
+    background-image: url(affaire_laura.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+#third {
+    height: 100vh;
+    background-image: url(courrier\ lecteurs.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+    
 }
 
 @media screen and (max-device-width: 480px) {
