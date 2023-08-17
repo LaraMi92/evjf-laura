@@ -79,6 +79,24 @@ align-items: center;
     background-position: top center;
 }
 
+.container-video {
+    /* min-height: 50vh; */
+   
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title,.video {
+    min-width: 50vw;
+}
+
+.video {
+    height:250px;
+}
+
 @media screen and (max-device-width: 480px) {
     /* .main {
        height:100vh;
